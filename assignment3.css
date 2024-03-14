@@ -1,0 +1,195 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Slab", serif;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   
+   background-color: black;  */
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+.logo{
+    width: 140px;
+
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    align-items: center;
+
+}
+.link{
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: 600;
+    Font-size: 20px;
+}
+.link:hover{
+    color: wheat;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(181, 122, 122);
+   
+    
+}
+.caption{
+    font-size: 25px;
+    font-style:oblique;
+    color:black;
+    margin-left: 20px;
+    
+}
+#cap1{
+    color: rgb(109, 235, 235);
+}
+#cap2{
+    color: rgb(233, 206, 90);
+}
+.pic1{
+    height: 300px;
+    width: 300px;
+}
+.pic2{
+    height: 300px;
+    width: 300px;
+}
+.pic3{
+    height: 300px;
+    width: 300px;
+}
+.pic4{
+    height: 300px;
+    width: 300px;
+}
+.types{
+    margin: 30px 20px;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: grey;
+
+}
+.cards{
+    width: 100%;
+    margin: 0 10px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0, .1);
+    border-radius: 10px;
+    transition: 1s;
+}
+.cards:hover{
+    transform: scale(.5,.5);
+} 
+.cards h1{
+    text-align: center;
+    color: palevioletred;
+    font-weight: bolder;
+}
+.cards p{
+    text-align: center;
+    font-size: 18px;
+    color: wheat;
+}
+.food{
+    height: 300px;
+    width: 300px;
+}
+.item1{
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.item2{
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+.items h1{
+    color: palevioletred;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.items h3{
+    text-align: center;
+    color: peachpuff;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.items{
+    background-color: black;
+}
+#contact{
+    background-color: wheat;
+}   
+.heading{
+    text-align: center;
+    color: palevioletred;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;padding: 30px;
+}
+.info span{
+    margin-left : 30px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    
+}
+.information i{
+    font-size:30px;
+    color: palevioletred
+}
+.icons{
+    display: flex;
+    margin: 30px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+ .icon-set{
+    width: 50px;
+   /* border: 1px solid; */
+    border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 40px;
+ }
+ .icon-set i {
+    font-size: 40px;
+    background-color: palevioletred;
+    color: white;
+ }
+ footer{
+    margin: 50px 0px;
+ }
+ footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+ }
+
+
+    
+
